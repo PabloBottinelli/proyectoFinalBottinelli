@@ -1,26 +1,26 @@
 [
     {
         "nombre": "Pablo",
-        "ganadas": "10"
+        "ganadas": "1000000000000000000"
     },
     {
-        "nombre": "Julian",
-        "ganadas": "30"
+        "nombre": "Meli",
+        "ganadas": "1909"
     },
     {
-        "nombre": "Matias",
-        "ganadas": "5"
+        "nombre": "Emi",
+        "ganadas": "1610"
     },
     {
-        "nombre": "Jorge",
-        "ganadas": "20"
+        "nombre": "Flavio",
+        "ganadas": "101"
     },
     {
-        "nombre": "Caro",
-        "ganadas": "25"
+        "nombre": "Mavi",
+        "ganadas": "1009"
     },
     {
-        "nombre": "Lucia",
+        "nombre": "Carla",
         "ganadas": "15"
     },
     {
@@ -28,16 +28,16 @@
         "ganadas": "40"
     },
     {
-        "nombre": "Meli",
+        "nombre": "Pepe",
         "ganadas": "50"
     },
     {
         "nombre": "Carlos",
-        "ganadas": "10000000"
+        "ganadas": "-5"
     },
     {
         "nombre": "Vito",
-        "ganadas": "1"
+        "ganadas": "404"
     }
 ]
    
