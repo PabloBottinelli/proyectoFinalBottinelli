@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dc19d10b3a.js" crossorigin="anonymous"></script> <!-- fuente de los iconos-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <title>Ta Te Ti</title>
+</head>
+<body>
+    <div class="bienvenida">
+        <h3>Bienvenidos!!</h3>
+    </div>
+    <div id="bloque1">
+        <h1>Bienvenidxs al Ta Te Ti!</h1>
+        <form action="" id="form">
+            <input type="text" placeholder="Nombre del primer jugador/a" required>
+            <input type="text" placeholder="Nombre del segundo jugador/a" required>
+            <input type="submit" value="Empezar">
+        </form>
+    </div>  
+    <div id="bloque2">
+        <h2 id="alerts">¡Diviertanse!</h2>
+        <div class="flex">
+            <i class="fas fa-gamepad"></i>
+            <div>
+                <div class="tateti">
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                    <div class="casillero"><i class="fas fa-times"></i><i class="far fa-circle"></i></div>
+                </div>
+                <div class="botones">
+                    <button id="jugar">Jugar</button>
+                    <button id="leader2" class="">Leaderboard</button>
+                    <button id="salir" class="salir">Salir</button>
+                </div>
+            </div>
+            <i class="fas fa-gamepad"></i>
+        </div>
+    </div> 
+    <div id="ganador">
+        <h2 id="jugadorGanador">Felicidades ganador, ganaste!</h2>
+        <div class="botones">
+            <button id="reiniciar">Volver a jugar</button>
+            <button id="salir2">Salir</button>
+            <button id="leader">Leaderboard</button>
+        </div>
+    </div>
+    <div id="leaderboard">
+        <h4>Leaderboard</h4>
+        <table>
+            <th>
+                <tr>
+                    <td>Top</td>
+                    <td>Jugador</td>
+                    <td>Partidas ganadas</td>
+                </tr>
+            </th>
+            <tbody id="lista">
+
+            </tbody>
+        </table>
+        <div class="botones">
+            <button id="reiniciar2">Volver a jugar</button>
+            <button id="salir3">Salir</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script> 
+</body>
+</html>
