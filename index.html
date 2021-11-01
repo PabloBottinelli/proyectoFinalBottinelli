@@ -39,8 +39,8 @@
                 </div>
                 <div class="botones">
                     <button id="jugar">Jugar</button>
-                    <button id="leader2" class="">Leaderboard</button>
-                    <button id="salir" class="salir">Salir</button>
+                    <button class="leader" id="leader" onclick="leaderBoard()">Leaderboard</button>
+                    <button class="salir" onclick="salirDelJuego()">Salir</button>
                 </div>
             </div>
             <i class="fas fa-gamepad"></i>
@@ -49,9 +49,9 @@
     <div id="ganador">
         <h2 id="jugadorGanador">Felicidades ganador, ganaste!</h2>
         <div class="botones">
-            <button id="reiniciar">Volver a jugar</button>
-            <button id="salir2">Salir</button>
-            <button id="leader">Leaderboard</button>
+            <button class="reiniciar" onclick="reiniciarJuego()">Volver a jugar</button>
+            <button class="salir" onclick="salirDelJuego()">Salir</button>
+            <button class="leader" id="leader2" onclick="leaderBoard()">Leaderboard</button>
         </div>
     </div>
     <div id="leaderboard">
@@ -69,8 +69,8 @@
             </tbody>
         </table>
         <div class="botones">
-            <button id="reiniciar2">Volver a jugar</button>
-            <button id="salir3">Salir</button>
+            <button class="reiniciar" id="reiniciar" onclick="reiniciarJuego()">Volver a jugar</button>
+            <button class="salir" onclick="salirDelJuego()">Salir</button>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
