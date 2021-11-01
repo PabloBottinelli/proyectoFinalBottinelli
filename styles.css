@@ -54,6 +54,8 @@ h2{
     left: 0;
 
     transition: all 1s ease-out 1s;
+
+    z-index: 99;
 }
 .bienvenida h3{
     animation: colorRotate 1s linear 0s infinite;
@@ -165,12 +167,17 @@ button:hover, input[type="submit"]:hover{
 .botones button{
     margin: 15px;
 }
-#leader, #reiniciar{
+.leader, .reiniciar{
     margin: 20px;
+    font-size: 1.8em;
+
 }
 
 button:hover{
     transform: scale(1.1);
+}
+#bloque1{
+    display: none;
 }
 form{
     text-align: center;
@@ -190,7 +197,7 @@ input[type="text"]:focus{
     outline-style: none;
 }
 #bloque2{
-    display: none;
+    display: block;
 }
 table{
     margin: auto;
